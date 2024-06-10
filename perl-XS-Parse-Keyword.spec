@@ -1,19 +1,19 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	XS
 %define		pnam	Parse-Keyword
 Summary:	XS::Parse::Keyword - XS functions to assist in parsing keyword syntax
 Summary(pl.UTF-8):	XS::Parse::Keyword - funkcje XS pomagające w analizie składni słów kluczowych
 Name:		perl-XS-Parse-Keyword
-Version:	0.34
-Release:	2
+Version:	0.42
+Release:	1
 # same as perl 5
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/P/PE/PEVANS/XS-Parse-Keyword-%{version}.tar.gz
-# Source0-md5:	ae441b1b439340efeb1b71b37d096e04
+Source0:	https://www.cpan.org/modules/by-authors/id/P/PE/PEVANS/XS-Parse-Keyword-%{version}.tar.gz
+# Source0-md5:	340aace440e95e154e03bb24265a75df
 URL:		https://metacpan.org/dist/XS-Parse-Keyword
 BuildRequires:	perl-ExtUtils-CChecker >= 0.11
 BuildRequires:	perl-ExtUtils-ParseXS >= 3.16
