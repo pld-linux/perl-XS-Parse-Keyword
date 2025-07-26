@@ -8,7 +8,7 @@ Summary:	XS::Parse::Keyword - XS functions to assist in parsing keyword syntax
 Summary(pl.UTF-8):	XS::Parse::Keyword - funkcje XS pomagające w analizie składni słów kluczowych
 Name:		perl-XS-Parse-Keyword
 Version:	0.43
-Release:	1
+Release:	2
 # same as perl 5
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
