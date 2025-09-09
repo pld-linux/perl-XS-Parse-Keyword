@@ -7,13 +7,13 @@
 Summary:	XS::Parse::Keyword - XS functions to assist in parsing keyword syntax
 Summary(pl.UTF-8):	XS::Parse::Keyword - funkcje XS pomagające w analizie składni słów kluczowych
 Name:		perl-XS-Parse-Keyword
-Version:	0.43
-Release:	2
+Version:	0.48
+Release:	1
 # same as perl 5
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	https://www.cpan.org/modules/by-authors/id/P/PE/PEVANS/XS-Parse-Keyword-%{version}.tar.gz
-# Source0-md5:	e7ba804b20349dfec79cf4de93e81fa3
+# Source0-md5:	bc474b1c594c187648cefddd8fdd000b
 URL:		https://metacpan.org/dist/XS-Parse-Keyword
 BuildRequires:	perl-ExtUtils-CChecker >= 0.11
 BuildRequires:	perl-ExtUtils-ParseXS >= 3.16
@@ -73,6 +73,7 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/XS/Parse
 %dir %{perl_vendorarch}/auto/XS/Parse/Keyword
 %attr(755,root,root) %{perl_vendorarch}/auto/XS/Parse/Keyword/Keyword.so
-%{perl_vendorarch}/auto/share/dist/XS-Parse-Keyword
+%{perl_vendorarch}/auto/share/module/XS-Parse-Infix
+%{perl_vendorarch}/auto/share/module/XS-Parse-Keyword
 %{_mandir}/man3/XS::Parse::Infix*.3pm*
 %{_mandir}/man3/XS::Parse::Keyword*.3pm*
